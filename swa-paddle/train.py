@@ -300,7 +300,7 @@ for epoch in range(start_epoch, args.epochs):
     else:
         test_res = {'loss': None, 'accuracy': None}
     if args.swa and (epoch + 1) >= args.swa_start and (epoch + 1 - args.swa_start) % args.swa_c_epochs == 0:
-        swa_model = utils.moving_average(swa_model, model, 1.0 / (swa_n + 1))
+        utils.moving_average(swa_model, model, 1.0 / (swa_n + 1))
         swa_n += 1
         if epoch == 0 or epoch % args.eval_freq == args.eval_freq - 1 or epoch == args.epochs - 1:
             utils.bn_update(loaders['train'], swa_model)
