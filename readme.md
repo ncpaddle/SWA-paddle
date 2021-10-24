@@ -26,7 +26,7 @@ A brief introduction about important folders:
 
 | Method  |DataSet| Environment | Model| Epoch| Test Accuracy|   
 | --- | --- |--- | --- |---|---|  
-| SWA| CIFAR-10| GeForce RTX 3090 | VGG-16 | 225 | 93.60 |  
+| SWA| CIFAR-10| Tesla V100 * 4 | VGG-16 | 225 | 93.60 |  
 
 ## Reprod_Log:  
 
@@ -38,4 +38,4 @@ A brief introduction about important folders:
 `train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
 ## Model:  
 
-The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113323)  
+The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113415)  
