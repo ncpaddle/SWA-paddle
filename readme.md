@@ -26,7 +26,7 @@ A brief introduction about important folders:
 
 | Method  |DataSet| Environment | Model| Epoch| Test Accuracy|   
 | --- | --- |--- | --- |---|---|  
-| SWA| CIFAR-10| GeForce RTX 3090 | VGG-16 | 350 | 92.39 |  
+| SWA| CIFAR-10| GeForce RTX 3090 | VGG-16 | 225 | 93.60 |  
 
 ## Reprod_Log:  
 
