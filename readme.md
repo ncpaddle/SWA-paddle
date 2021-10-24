@@ -35,7 +35,7 @@ A brief introduction about important folders:
 `loss_diff` : [loss_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/loss_diff.log)  
 `bp_align_diff` : [bp_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/bp_align_diff.log)  
 `train_align_diff` : [train_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/train_align_diff_log.log)  
-
+`train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
 ## Model:  
 
-The model we have trained is save to : [Baidu Aistudio SWA Paddle](...)  
+The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113323)  
