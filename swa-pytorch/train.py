@@ -200,12 +200,11 @@ def bp_align_pytorch(args):
 # show_pkl(args)
 # pytorch2paddle()
 # forward_pytorch(args)
-metric_pytorch(args)
+# metric_pytorch(args)
 # loss_pytorch(args)
 # bp_align_pytorch(args)
 
 ###############################
-'''
 print('Preparing directory %s' % args.dir)
 os.makedirs(args.dir, exist_ok=True)
 with open(os.path.join(args.dir, 'command.sh'), 'w') as f:
@@ -359,4 +358,3 @@ if args.epochs % args.save_freq != 0:
         swa_n=swa_n if args.swa else None,
         optimizer=optimizer.state_dict()
     )
-'''
