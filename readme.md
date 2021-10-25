@@ -16,11 +16,20 @@ A brief introduction about important folders:
 
 `diff`: log and fake data from recommended procedures of reproducing research papers [论文复现指南](https://github.com/PaddlePaddle/models/blob/develop/docs/ThesisReproduction_CV.md#4)
 
-`reprod_log`: Important tools for checking the alignment accuracy of each step in the model reproduction process [reprod_log tool](https://github.com/WenmuZhou/reprod_log)
-
 `swa-paddle`: paddle version of SWA
 
 `swa-python`: pytorch version of SWA
+
+## Training:
+'''python
+%cd swa-paddle
+!python train.py --swa 
+'''
+## Evaling:
+'''python
+%cd swa-paddle
+!python eval.py --model_path="out/checkpoint.pdparams"
+'''
 
 ## Results:  
 
@@ -37,7 +46,7 @@ A brief introduction about important folders:
 `train_align_diff` : [train_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/train_align_diff_log.log)  
 `train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
 ## Model:  
-
+if you want to train this model using more than one GPU， you can click to following link
 AI studio link : [https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009)
 To run this script:
 ```python
