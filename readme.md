@@ -38,4 +38,10 @@ A brief introduction about important folders:
 `train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
 ## Model:  
 
+AI studio link : [https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009)
+To run this script:
+```python
+!python -m paddle.distributed.launch train.py --swa
+```
+
 The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113415)  
