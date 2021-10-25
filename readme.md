@@ -45,12 +45,13 @@ A brief introduction about important folders:
 `bp_align_diff` : [bp_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/bp_align_diff.log)  
 `train_align_diff` : [train_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/train_align_diff_log.log)  
 `train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
-## Model:  
-if you want to train this model using more than one GPU， you can click to following link 
-AI studio link : [https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009)
+## AI studio:
+* AI studio link : [https://aistudio.baidu.com/aistudio/projectdetail/2518880](https://aistudio.baidu.com/aistudio/projectdetail/2518880) 
+* if you want to train this model using four GPUs， you can click to following link 
+AI studio link : [https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009](https://aistudio.baidu.com/aistudio/clusterprojectdetail/2504009) 
 To run this script:
 ```python
 !python -m paddle.distributed.launch train.py --swa
 ```
-
+## Model:  
 The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113415)  
