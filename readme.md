@@ -35,7 +35,7 @@ A brief introduction about important folders:
 
 | Method  |DataSet| Environment | Model| Epoch| Test Accuracy|   
 | --- | --- |--- | --- |---|---|  
-| SWA| CIFAR-10| Tesla V100 * 4 | VGG-16 | 225 | 93.60 |  
+| SWA| CIFAR-10| Tesla V100 * 4 | VGG-16 | 200 | 93.43 |  
 
 ## Reprod_Log:  
 
