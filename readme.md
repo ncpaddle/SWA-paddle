@@ -43,7 +43,7 @@ A brief introduction about important folders:
 `metric_diff` : [metric_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/metric_diff.log)  
 `loss_diff` : [loss_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/loss_diff.log)  
 `bp_align_diff` : [bp_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/bp_align_diff.log)  
-`train_align_diff` : [train_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/train_align_diff_log.log)  
+`train_align_diff` : [train_align_diff.log](https://github.com/ncpaddle/SWA/blob/master/diff/train_align_diff.log)  
 `train_log` : [train_log.txt](https://github.com/ncpaddle/SWA/blob/master/diff/train_log.txt)
 ## AI studio:
 * AI studio link : [https://aistudio.baidu.com/aistudio/projectdetail/2518880](https://aistudio.baidu.com/aistudio/projectdetail/2518880) 
