@@ -50,7 +50,7 @@ model = model_cfg.base(*model_cfg.args, num_classes=num_classes, **model_cfg.kwa
 
 criterion = F.cross_entropy
 checkpoint = paddle.load(args.model_path)
-model.load_dict(checkpoint['state_dict'])
+model.load_dict(checkpoint['swa_state_dict'])
 test_res = utils.eval(loaders['test'], model, criterion)
 print("model eval accuracy is :", test_res["accuracy"])
 print("model eval loss is :", test_res["loss"])
