@@ -53,4 +53,4 @@ To run this script:
 !python -m paddle.distributed.launch train.py --swa
 ```
 ## Model:  
-The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/datasetdetail/113415)  
+The model we have trained is save to : [Baidu Aistudio SWA Paddle](https://aistudio.baidu.com/aistudio/projectdetail/2564622)  
